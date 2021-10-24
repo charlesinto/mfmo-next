@@ -1,121 +1,127 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.bannerContainer {
+  min-height: 400px;
+  background: rgba(3, 152, 50, 0.2);
+  position: relative;
 }
 
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media screen and (max-width: 768px) {
+  .bannerContainer {
+    min-height: 120px !important;
   }
+}
+
+.redTitle,
+.blackTitle,
+.greenTitle,
+.whiteTitle {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.redTitle {
+  color: #d24504;
+}
+
+.whiteTitle {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.blackTitle {
+  color: #2a3737;
+}
+
+.greenTitle {
+}
+
+.section {
+  padding: 20px 10px;
+}
+
+.firsTimeBanner {
+  position: relative;
+  width: 100%;
+  background-image: url("/bg4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ministriesCard {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ministriesCard-1 {
+  background-image: url("/bg5.png");
+}
+
+.events-card-1 {
+  background-image: url("/bg17.png");
+}
+
+.ministriesCard-2 {
+  background-image: url("/bg7.png");
+}
+
+.ministriesCard-3 {
+  background-image: url("/bg8.png");
+}
+
+.ministriesCard-4 {
+  background-image: url("/bg9.png");
+}
+
+.ministriesCard-5 {
+  background-image: url("/bg10.png");
+}
+
+.ministriesCard-6 {
+  background-image: url("/bg12.png");
+}
+
+.ministriesCard-7 {
+  background-image: url("/bg14.png");
+}
+
+.seriesContainer {
+  background-image: url("/bg15.png");
+  width: 100%;
+  background-size: cover;
+  padding: 1.8rem 1.3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.article {
+  color: #fff;
+  font-weight: 200;
+  text-shadow: inherit;
+  line-height: 1.7;
+}
+
+.event-card-article {
+  color: #1d1d1d;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.event-card-h4 {
+  margin-top: 16px;
+  text-align: center;
+  color: #1d1d1d;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.event-card-aside {
+  text-align: center;
+  color: #1d1d1d;
+  font-size: 14px;
 }

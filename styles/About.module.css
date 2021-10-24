@@ -1,0 +1,31 @@
+.leadpastor-image,
+.pst-profile-img,
+.pst-profile-img2 {
+  height: 400px;
+  max-width: 350px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.leadpastor-image {
+  background-image: url("/bg19.png");
+}
+
+.pst-profile-img {
+  background-image: url("/bg20.png");
+  height: 220px;
+}
+
+.pst-profile-img2 {
+  background-image: url("/bg26.png");
+  height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .leadpastor-image,
+  .pst-profile-img {
+    height: 140px !important;
+  }
+}

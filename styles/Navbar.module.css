@@ -1,0 +1,109 @@
+.navContainer {
+  display: flex;
+  padding: 10px 0px;
+  background-color: #fff;
+  z-index: 99;
+  padding-left: 0px 16px;
+  position: relative;
+}
+.ul {
+  display: flex;
+  flex: 1;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu {
+  display: none;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mobile-menu i {
+  font-size: 40px;
+  color: #039832;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .ul {
+    display: none !important;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+  .sm-logo {
+    display: flex !important;
+  }
+
+  .lg-logo {
+    display: none !important;
+  }
+  .navContainer {
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 16px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sm-logo {
+  display: none;
+  align-items: center;
+}
+
+.mobileMenu {
+  background-color: #fff;
+  width: 100%;
+  padding-left: 0px !important;
+  padding-top: 20px;
+}
+
+.mobileMenu li {
+  border-bottom: 1px solid #ccc;
+  list-style-type: none;
+  padding: 16px 8px;
+  list-style: none;
+}
+
+.mobileMenu li:last-child {
+  border-bottom: none !important;
+}
+
+.lg-logo {
+  display: block;
+}
+
+.li {
+  margin-right: 16px;
+  list-style-type: none;
+  padding: 10px 8px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.btnOutline {
+  color: #039832;
+  border: 1px solid #039832;
+  padding: 0.3rem 0.8rem;
+  border-radius: 3px;
+}
+
+.btnContain {
+  color: #fff;
+  border: 1px solid #039832;
+  background-color: #039832;
+  padding: 0.3rem 1.2rem;
+  border-radius: 3px;
+}
+
+.logo {
+  cursor: pointer;
+}
