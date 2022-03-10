@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       </div>
       <div className="container">
         <div className="row section">
-          <div className="col-md-9">
+          <div className="col-md-9 mb-5">
             <h1 className={styles.redTitle}>
               Welcome to Marantha Family Missions Outreach
             </h1>
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
               building on 27 August 2017.
             </p>
             <Link href="#!">
-              <a className="btn-contain">VIST US THIS SUNDAY</a>
+              <a className="btn-contain mb-2">VIST US THIS SUNDAY</a>
             </Link>
           </div>
           <div className="col-md-3">
