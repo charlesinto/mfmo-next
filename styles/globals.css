@@ -196,3 +196,11 @@ a {
 .green-board .lower-banner .article-quote {
   font-size: 1.8rem;
 }
+
+.home-link {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #039832;
+}

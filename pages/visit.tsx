@@ -9,7 +9,15 @@ const Visit = () => {
     <>
       <Meta title="MFMO - Visit Us" />
       <div style={{ position: "relative" }} className={styles.bannerContainer}>
-        <Image src="/bg45.png" layout="fill" />
+        <img
+          src="/church3.JPG"
+          style={{
+            objectFit: "cover",
+            objectPosition: "ceter",
+            width: "100%",
+            height: "100%",
+          }}
+        />
       </div>
       <div className="container">
         <div className="row section">
@@ -67,34 +75,7 @@ const Visit = () => {
             </div>
           </div>
         </div>
-        <div className="row section">
-          <div className="col-md-6 align-center">
-            <div
-              style={{ backgroundImage: `url('/bg31.png')`, height: 250 }}
-              className={`${aboutStyles["pst-profile-img"]}`}
-            ></div>
-          </div>
-          <div className="col-md-6 align-center">
-            <div
-              style={{ backgroundImage: `url('/bg32.png')`, height: 250 }}
-              className={`${aboutStyles["pst-profile-img"]}`}
-            ></div>
-          </div>
-        </div>
-        <div className="row section">
-          <div className="col-md-6 align-center">
-            <div
-              style={{ backgroundImage: `url('/bg33.png')`, height: 250 }}
-              className={`${aboutStyles["pst-profile-img"]}`}
-            ></div>
-          </div>
-          <div className="col-md-6 align-center">
-            <div
-              style={{ backgroundImage: `url('/bg34.png')`, height: 250 }}
-              className={`${aboutStyles["pst-profile-img"]}`}
-            ></div>
-          </div>
-        </div>
+
         <div className="row section">
           <div className="col-md-6">
             <iframe
@@ -111,27 +92,13 @@ const Visit = () => {
               Detailed <span className="text-green">Direction</span>
             </h1>
             <p>
-              <article className="article-quote">
-                The Plaza has 3 levels and we are in the corner on the second
-                level, next door to High Peak Sportswear.
-              </article>
+              <article className="article-quote"></article>
             </p>
             <p>
-              <article className="article-quote">
-                If you are coming down mainland, the Plaza has 3 levels and we
-                are in the corner on the second level, next door to High Peak
-                Sportswear.The Plaza has 3 levels and we are in the corner on
-                the second level, next door to High Peak Sportswear.
-              </article>
+              <article className="article-quote"></article>
             </p>
             <p>
-              <article className="article-quote">
-                If you are coming from Lakowe, Epe, Ibeju-Lekki axis The Plaza
-                has 3 levels and we are in the corner on the second level, next
-                door to High Peak Sportswear.The Plaza has 3 levels and we are
-                in the corner on the second level, next door to High Peak
-                Sportswear.
-              </article>
+              <article className="article-quote"></article>
             </p>
           </div>
         </div>

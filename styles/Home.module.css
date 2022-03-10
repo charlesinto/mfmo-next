@@ -1,12 +1,22 @@
 .bannerContainer {
-  min-height: 400px;
-  background: rgba(3, 152, 50, 0.2);
+  height: 600px;
+  /* background: rgba(3, 152, 50, 0.2); */
+}
+
+.homePageBanner {
+  min-height: 400px !important;
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .bannerContainer {
-    min-height: 120px !important;
+    height: 220px !important;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .bannerContainer {
+    height: 400px !important;
   }
 }
 
@@ -57,7 +67,7 @@
 }
 
 .ministriesCard-1 {
-  background-image: url("/bg5.png");
+  background-image: url("https://www.acerwc.africa/wp-content/themes/Archive/images/about.jpg");
 }
 
 .events-card-1 {

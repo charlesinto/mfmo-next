@@ -10,20 +10,23 @@ export const Nav = () => {
       <nav className={styles.navContainer}>
         <div className={styles["lg-logo"]}>
           <Link href="/" as="/">
-            <a>
+            <a className="home-link">
               {" "}
               <Image
                 className={styles.logo}
-                src="/logo.png"
-                width={200}
-                height={70}
+                src="/logo2.png"
+                // width={200}
+                // height={70}
+                width={70}
+                height={40}
               />
+              <span>Home</span>
             </a>
           </Link>
         </div>
         <div className={styles["sm-logo"]}>
           <Link href="/" as="/">
-            <a>
+            <a className="home-link">
               {" "}
               <Image
                 className={styles.logo}
@@ -31,19 +34,24 @@ export const Nav = () => {
                 width={70}
                 height={40}
               />
+              <span>Home</span>
             </a>
           </Link>
         </div>
 
         <ul className={styles.ul}>
-          <li className={styles.li}>Ministeries</li>
+          <li className={styles.li}>
+            <Link href="/about">
+              <a>Leadership</a>
+            </Link>
+          </li>
           <li className={styles.li}>
             <Link href="/visit">
               <a>Visit Us</a>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link href="/events">
+            <Link href="#">
               <a>Events</a>
             </Link>
           </li>
@@ -51,12 +59,12 @@ export const Nav = () => {
             <Link href="/watch-offline">Watch/Live Now</Link>
           </li>
           <li className={styles.li}>
-            <Link href="/messages">
+            <Link href="#">
               <a className={styles.btnOutline}>Get Message</a>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link href="/give">
+            <Link href="#">
               <a className={styles.btnContain}>Give</a>
             </Link>
           </li>
@@ -88,14 +96,18 @@ export const Nav = () => {
       {isMenuOpen && (
         <div className="pt-4">
           <ul className={styles.mobileMenu}>
-            <li className={styles.li}>Ministeries</li>
+            <li className={styles.li}>
+              <Link href="/about">
+                <a>Leadership</a>
+              </Link>
+            </li>
             <li className={styles.li}>
               <Link href="/visit">
                 <a>Visit Us</a>
               </Link>
             </li>
             <li className={styles.li}>
-              <Link href="/events">
+              <Link href="#">
                 <a>Events</a>
               </Link>
             </li>
@@ -103,12 +115,12 @@ export const Nav = () => {
               <Link href="/watch-offline">Watch/Live Now</Link>
             </li>
             <li className={styles.li}>
-              <Link href="/messages">
+              <Link href="#">
                 <a className={styles.btnOutline}>Get Message</a>
               </Link>
             </li>
             <li className={styles.li}>
-              <Link href="/give">
+              <Link href="#">
                 <a className={styles.btnContain}>Give</a>
               </Link>
             </li>

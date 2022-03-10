@@ -10,7 +10,12 @@
 }
 
 .leadpastor-image {
-  background-image: url("/bg19.png");
+  background-image: url("/pastor_godson.jpg");
+  /* background-image: url("/pst_godson2.JPG"); */
+  border: none;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .pst-profile-img {
