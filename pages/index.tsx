@@ -29,13 +29,13 @@ const Home: NextPage = () => {
           interval={5000}
         >
           <div>
-            <img src="/church2.JPG" />
+            <img src="/church2.webp" />
           </div>
           <div>
-            <img src="/church3.JPG" />
+            <img src="/church3.webp" />
           </div>
           <div>
-            <img src="/church4.JPG" />
+            <img src="/church4.webp" />
           </div>
         </Carousel>
       </div>

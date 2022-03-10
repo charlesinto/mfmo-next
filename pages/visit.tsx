@@ -10,7 +10,7 @@ const Visit = () => {
       <Meta title="MFMO - Visit Us" />
       <div style={{ position: "relative" }} className={styles.bannerContainer}>
         <img
-          src="/church3.JPG"
+          src="/church3.webp"
           style={{
             objectFit: "cover",
             objectPosition: "ceter",

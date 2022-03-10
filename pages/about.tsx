@@ -8,7 +8,7 @@ const About = () => {
       <Meta title="About Us" keywords="About Church" />
       <div style={{ position: "relative" }} className={styles.bannerContainer}>
         <img
-          src="/church3.JPG"
+          src="/church3.webp"
           style={{
             objectFit: "cover",
             objectPosition: "ceter",
