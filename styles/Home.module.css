@@ -71,35 +71,35 @@
 }
 
 .events-card-1 {
-  background-image: url("/bg17.png");
+  background-image: url("/bg17.webp");
 }
 
 .ministriesCard-2 {
-  background-image: url("/bg7.png");
+  background-image: url("/bg7.webp");
 }
 
 .ministriesCard-3 {
-  background-image: url("/bg8.png");
+  background-image: url("/bg8_2.webp");
 }
 
 .ministriesCard-4 {
-  background-image: url("/bg9.png");
+  background-image: url("/bg9.webp");
 }
 
 .ministriesCard-5 {
-  background-image: url("/bg10.png");
+  background-image: url("/bg10.webp");
 }
 
 .ministriesCard-6 {
-  background-image: url("/bg12.png");
+  background-image: url("/bg12.webp");
 }
 
 .ministriesCard-7 {
-  background-image: url("/bg14.png");
+  background-image: url("/bg14.webp");
 }
 
 .seriesContainer {
-  background-image: url("/bg15.png");
+  background-image: url("/bg15.webp");
   width: 100%;
   background-size: cover;
   padding: 1.8rem 1.3rem;
