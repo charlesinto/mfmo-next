@@ -14,7 +14,14 @@ export const Footer = () => {
             className="d-flex justify-content-center pt-2"
             style={{ color: "#039832", fontSize: 15 }}
           >
-            Contact Us: +234 815 4345 679 | info@marathonfamilyoutreach.com
+            Contact Us:{" "}
+            <a
+              href="tel: +2349021415206"
+              style={{ color: "#039832", padding: "0 4px", cursor: "pointer" }}
+            >
+              +2349021415206
+            </a>{" "}
+            | info@marathonfamilyoutreach.com
           </h4>
         </div>
         <div>
@@ -22,8 +29,7 @@ export const Footer = () => {
             className="d-flex justify-content-center pt-2"
             style={{ color: "#039832", fontSize: 16 }}
           >
-            ©2020 Marathon Family Outreach. All rights reserved. Site by Company
-            Name
+            ©2022 Maranatha Family Missions Outreach. All rights reserved.
           </h4>
         </div>
       </section>

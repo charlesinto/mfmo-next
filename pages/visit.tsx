@@ -38,7 +38,7 @@ const Visit = () => {
             </p>
             <p>
               <article className="article-quote">
-                To get a glimpse of what Marathon Family Mission Outreach is
+                To get a glimpse of what Maranatha Family Mission Outreach is
                 really all about, we’d encourage you to check us out some Sunday
                 morning.
               </article>
@@ -49,7 +49,7 @@ const Visit = () => {
               <h1 className={styles.blackTitle}>Weekly Gatherings</h1>
               <p className="info">
                 Sundays <span>indoors</span> &amp; <span>via Live stream</span>{" "}
-                : <span style={{ color: "#000" }}>8PM</span>
+                : <span style={{ color: "#000" }}>8AM</span>
               </p>
               <p className="info">
                 Wednessdays <span>indoors</span> &amp;{" "}
@@ -65,8 +65,11 @@ const Visit = () => {
               >
                 Marathon Family Mission Outreach
               </p>
-              <p className="info">2323 Lekki-Epe Expressway,</p>
-              <p className="info">Ajah Lagos, Nigeria</p>
+              <p className="info mb-0">2 Amanze Osagie Street,</p>
+              <p className="info">
+                Golden Pearl Estate (opposite Happyland Estate) Olokonla, Ajah
+                Lekki Lagos
+              </p>
               <p>
                 <Link href="#" as="church">
                   <a className="direction">Get Directions</a>

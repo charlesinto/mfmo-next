@@ -43,7 +43,7 @@ const Home: NextPage = () => {
         <div className="row section">
           <div className="col-md-9 mb-5">
             <h1 className={styles.redTitle}>
-              Welcome to Marantha Family Missions Outreach
+              Welcome to Maranatha Family Missions Outreach
             </h1>
             <p className="article mb-5">
               The Lord had laid a burden in the heart of Pastor Godson Ajaero to
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
               <h1 className={styles.blackTitle}>Weekly Gatherings</h1>
               <p className="info">
                 Sundays <span>indoors</span> &amp; <span>via Live stream</span>{" "}
-                : <span style={{ color: "#000" }}>8PM</span>
+                : <span style={{ color: "#000" }}>8AM</span>
               </p>
               <p className="info">
                 Wednessdays <span>indoors</span> &amp;{" "}
@@ -101,10 +101,13 @@ const Home: NextPage = () => {
                 className="info"
                 style={{ color: "#000", fontWeight: "bold", fontSize: 18 }}
               >
-                Marathon Family Mission Outreach
+                Maranatha Family Mission Outreach
               </p>
-              <p className="info">2323 Lekki-Epe Expressway,</p>
-              <p className="info">Ajah Lagos, Nigeria</p>
+              <p className="info mb-0">2 Amanze Osagie Street,</p>
+              <p className="info">
+                Golden Pearl Estate (opposite Happyland Estate) Olokonla, Ajah
+                Lekki Lagos
+              </p>
               <p>
                 <Link href="#" as="church">
                   <a className="direction">Get Directions</a>

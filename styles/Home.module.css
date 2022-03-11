@@ -67,7 +67,8 @@
 }
 
 .ministriesCard-1 {
-  background-image: url("https://www.acerwc.africa/wp-content/themes/Archive/images/about.jpg");
+  background-image: url("/child.webp");
+  /* background-image: url("https://www.acerwc.africa/wp-content/themes/Archive/images/about.jpg"); */
 }
 
 .events-card-1 {
