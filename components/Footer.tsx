@@ -21,7 +21,7 @@ export const Footer = () => {
             >
               +2349021415206
             </a>{" "}
-            | info@marathonfamilyoutreach.com
+            | info@mfmo.com
           </h4>
         </div>
         <div>

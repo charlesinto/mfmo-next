@@ -79,7 +79,7 @@ const Home: NextPage = () => {
               building on 27 August 2017.
             </p>
             <Link href="#!">
-              <a className="btn-contain mb-2">VIST US THIS SUNDAY</a>
+              <a className="btn-contain mb-2">VISIT US THIS SUNDAY</a>
             </Link>
           </div>
           <div className="col-md-3">
