@@ -63,7 +63,7 @@ const Visit = () => {
                 className="info"
                 style={{ color: "#000", fontWeight: "bold", fontSize: 18 }}
               >
-                Marathon Family Mission Outreach
+                Maranatha Family Mission Outreach
               </p>
               <p className="info mb-0">2 Amanze Osagie Street,</p>
               <p className="info">
