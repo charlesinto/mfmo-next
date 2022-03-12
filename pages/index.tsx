@@ -103,7 +103,7 @@ const Home: NextPage = () => {
               >
                 Maranatha Family Mission Outreach
               </p>
-              <p className="info mb-0">2 Amanze Osagie Street,</p>
+              <p className="info mb-0">2 Amanze Osajie Street,</p>
               <p className="info">
                 Golden Pearl Estate (opposite Happyland Estate) Olokonla, Ajah
                 Lekki Lagos
