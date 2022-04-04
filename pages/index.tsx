@@ -29,13 +29,16 @@ const Home: NextPage = () => {
           interval={5000}
         >
           <div>
-            <img src="/church2.webp" />
+            <img src="/church21.webp" />
           </div>
           <div>
-            <img src="/church3.webp" />
+            <img src="/church31.webp" />
           </div>
           <div>
-            <img src="/church4.webp" />
+            <img src="/church41.webp" />
+          </div>
+          <div>
+            <img src="/church6.webp" />
           </div>
         </Carousel>
       </div>
@@ -213,6 +216,189 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div> */}
+      <section className="container">
+        <div className="row pt-5">
+          <div className="col-md-12">
+            <div className="d-flex justify-content-center">
+              <h1 className={styles.blackTitle}>Upcoming Events</h1>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
+            <div className="d-flex justify-content-center">
+              <img
+                style={{
+                  width: "50%",
+                  maxWidth: "400px",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+                src="/coming_soon.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        {/* <div className="row pt-3">
+          <div className="col-md-4 col-sm-12 col-lg-4">
+            <div
+              className={`${styles["ministriesCard"]} ${styles["events-card-1"]}`}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "right",
+                  padding: 10,
+                }}
+              >
+                <div
+                  style={{
+                    width: 55,
+                    height: 55,
+                    borderRadius: 4,
+                    background: "#518185",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <h6
+                    style={{
+                      color: "#fff",
+                      fontSize: 14,
+                      marginBottom: 0,
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Feb
+                  </h6>
+                  <h6
+                    style={{ color: "#fff", fontSize: 14, fontWeight: "bold" }}
+                  >
+                    21
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <h4 className={styles["event-card-h4"]}>Youth Arise</h4>
+            <p>
+              <article className={styles["event-card-article"]}>
+                We show that the Christian life is fun, exciting, and vital to
+                finding your way through the maze of life.
+              </article>
+            </p>
+            <p>
+              <aside className={styles["event-card-aside"]}>Feb 12, 2021</aside>
+            </p>
+          </div>
+          <div className="col-md-4 col-sm-12 col-lg-4">
+            <div
+              className={`${styles["ministriesCard"]} ${styles["events-card-1"]}`}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "right",
+                  padding: 10,
+                }}
+              >
+                <div
+                  style={{
+                    width: 55,
+                    height: 55,
+                    borderRadius: 4,
+                    background: "#518185",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <h6
+                    style={{
+                      color: "#fff",
+                      fontSize: 14,
+                      marginBottom: 0,
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Feb
+                  </h6>
+                  <h6
+                    style={{ color: "#fff", fontSize: 14, fontWeight: "bold" }}
+                  >
+                    21
+                  </h6>
+                </div>
+              </div>
+            </div>
+
+            <h4 className={styles["event-card-h4"]}>Youth Arise</h4>
+            <p>
+              <article className={styles["event-card-article"]}>
+                We show that the Christian life is fun, exciting, and vital to
+                finding your way through the maze of life.
+              </article>
+            </p>
+            <p>
+              <aside className={styles["event-card-aside"]}>Feb 12, 2021</aside>
+            </p>
+          </div>
+          <div className="col-md-4 col-sm-12 col-lg-4">
+            <div
+              className={`${styles["ministriesCard"]} ${styles["events-card-1"]}`}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "right",
+                  padding: 10,
+                }}
+              >
+                <div
+                  style={{
+                    width: 55,
+                    height: 55,
+                    borderRadius: 4,
+                    background: "#518185",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <h6
+                    style={{
+                      color: "#fff",
+                      fontSize: 14,
+                      marginBottom: 0,
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Feb
+                  </h6>
+                  <h6
+                    style={{ color: "#fff", fontSize: 14, fontWeight: "bold" }}
+                  >
+                    21
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <h4 className={styles["event-card-h4"]}>Youth Arise</h4>
+            <p>
+              <article className={styles["event-card-article"]}>
+                We show that the Christian life is fun, exciting, and vital to
+                finding your way through the maze of life.
+              </article>
+            </p>
+            <p>
+              <aside className={styles["event-card-aside"]}>Feb 12, 2021</aside>
+            </p>
+          </div>
+        </div> */}
+      </section>
       <div className="">
         <div className="container">
           <div className="row section">
@@ -238,7 +424,7 @@ const Home: NextPage = () => {
                       cursor: "pointer",
                     }}
                   >
-                    <h1 className={styles.whiteTitle}>Kids</h1>
+                    <h1 className={styles.whiteTitle}>Teens</h1>
                     <p>
                       <article
                         style={{
@@ -325,7 +511,7 @@ const Home: NextPage = () => {
                       cursor: "pointer",
                     }}
                   >
-                    <h1 className={styles.whiteTitle}>The Forge</h1>
+                    <h1 className={styles.whiteTitle}>Men</h1>
                     <p>
                       <article
                         style={{
@@ -450,6 +636,21 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="row">
+            <div className="col-md-12">
+              <div className="d-flex justify-content-center">
+                <img
+                  style={{
+                    width: "50%",
+                    maxWidth: "400px",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                  src="/coming_soon.jpg"
+                />
+              </div>
+            </div>
+          </div>
+          {/* <div className="row">
             <div className={styles.seriesContainer}>
               <div className="row">
                 <div className="col-md-6">
@@ -470,177 +671,10 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <section className="container">
-        <div className="row pt-5">
-          <div className="col-md-12">
-            <div className="d-flex justify-content-center">
-              <h1 className={styles.blackTitle}>Upcoming Events</h1>
-            </div>
-          </div>
-        </div>
-        <div className="row pt-3">
-          <div className="col-md-4 col-sm-12 col-lg-4">
-            <div
-              className={`${styles["ministriesCard"]} ${styles["events-card-1"]}`}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "right",
-                  padding: 10,
-                }}
-              >
-                <div
-                  style={{
-                    width: 55,
-                    height: 55,
-                    borderRadius: 4,
-                    background: "#518185",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexDirection: "column",
-                  }}
-                >
-                  <h6
-                    style={{
-                      color: "#fff",
-                      fontSize: 14,
-                      marginBottom: 0,
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Feb
-                  </h6>
-                  <h6
-                    style={{ color: "#fff", fontSize: 14, fontWeight: "bold" }}
-                  >
-                    21
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <h4 className={styles["event-card-h4"]}>Youth Arise</h4>
-            <p>
-              <article className={styles["event-card-article"]}>
-                We show that the Christian life is fun, exciting, and vital to
-                finding your way through the maze of life.
-              </article>
-            </p>
-            <p>
-              <aside className={styles["event-card-aside"]}>Feb 12, 2021</aside>
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-12 col-lg-4">
-            <div
-              className={`${styles["ministriesCard"]} ${styles["events-card-1"]}`}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "right",
-                  padding: 10,
-                }}
-              >
-                <div
-                  style={{
-                    width: 55,
-                    height: 55,
-                    borderRadius: 4,
-                    background: "#518185",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexDirection: "column",
-                  }}
-                >
-                  <h6
-                    style={{
-                      color: "#fff",
-                      fontSize: 14,
-                      marginBottom: 0,
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Feb
-                  </h6>
-                  <h6
-                    style={{ color: "#fff", fontSize: 14, fontWeight: "bold" }}
-                  >
-                    21
-                  </h6>
-                </div>
-              </div>
-            </div>
 
-            <h4 className={styles["event-card-h4"]}>Youth Arise</h4>
-            <p>
-              <article className={styles["event-card-article"]}>
-                We show that the Christian life is fun, exciting, and vital to
-                finding your way through the maze of life.
-              </article>
-            </p>
-            <p>
-              <aside className={styles["event-card-aside"]}>Feb 12, 2021</aside>
-            </p>
-          </div>
-          <div className="col-md-4 col-sm-12 col-lg-4">
-            <div
-              className={`${styles["ministriesCard"]} ${styles["events-card-1"]}`}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "right",
-                  padding: 10,
-                }}
-              >
-                <div
-                  style={{
-                    width: 55,
-                    height: 55,
-                    borderRadius: 4,
-                    background: "#518185",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexDirection: "column",
-                  }}
-                >
-                  <h6
-                    style={{
-                      color: "#fff",
-                      fontSize: 14,
-                      marginBottom: 0,
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Feb
-                  </h6>
-                  <h6
-                    style={{ color: "#fff", fontSize: 14, fontWeight: "bold" }}
-                  >
-                    21
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <h4 className={styles["event-card-h4"]}>Youth Arise</h4>
-            <p>
-              <article className={styles["event-card-article"]}>
-                We show that the Christian life is fun, exciting, and vital to
-                finding your way through the maze of life.
-              </article>
-            </p>
-            <p>
-              <aside className={styles["event-card-aside"]}>Feb 12, 2021</aside>
-            </p>
-          </div>
-        </div>
-      </section>
       <style global jsx>{`
         .bannerContainer-responseive {
           background: rgba(3, 152, 50, 0.2);

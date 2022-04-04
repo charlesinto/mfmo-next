@@ -8,12 +8,15 @@ const Visit = () => {
   return (
     <>
       <Meta title="MFMO - Visit Us" />
-      <div style={{ position: "relative" }} className={styles.bannerContainer}>
+      <div
+        style={{ position: "relative", height: 350 }}
+        className={styles.bannerContainer}
+      >
         <img
-          src="/church3.webp"
+          src="/church5.webp"
           style={{
             objectFit: "cover",
-            objectPosition: "ceter",
+            objectPosition: "top center",
             width: "100%",
             height: "100%",
           }}
@@ -80,7 +83,7 @@ const Visit = () => {
         </div>
 
         <div className="row section">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.3724669485346!2d3.600253314440463!3d6.474416995316317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf98ca4842e93%3A0x6ca2fe2de36ab0f4!2sLagos%20Business%20School!5e0!3m2!1sen!2sng!4v1635028807318!5m2!1sen!2sng"
               width="100%"
@@ -90,7 +93,7 @@ const Visit = () => {
               loading="lazy"
             />
           </div>
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <h1 className="text-title-quote text-center">
               Detailed <span className="text-green">Direction</span>
             </h1>
@@ -103,7 +106,7 @@ const Visit = () => {
             <p>
               <article className="article-quote"></article>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

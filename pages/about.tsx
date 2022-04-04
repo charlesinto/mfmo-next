@@ -6,12 +6,15 @@ const About = () => {
   return (
     <>
       <Meta title="About Us" keywords="About Church" />
-      <div style={{ position: "relative" }} className={styles.bannerContainer}>
+      <div
+        style={{ position: "relative", height: 350 }}
+        className={styles.bannerContainer}
+      >
         <img
-          src="/church3.webp"
+          src="/church31.webp"
           style={{
             objectFit: "cover",
-            objectPosition: "ceter",
+            objectPosition: "top center",
             width: "100%",
             height: "100%",
           }}
