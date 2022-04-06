@@ -214,7 +214,7 @@ const Home: NextPage = () => {
                   height: "auto",
                   cursor: "pointer",
                 }}
-                src="/banner1.png"
+                src="/banner1.webp"
               />
               <img
                 alt="banner"
@@ -226,7 +226,7 @@ const Home: NextPage = () => {
                   height: "auto",
                   cursor: "pointer",
                 }}
-                src="/banner2.png"
+                src="/banner2.webp"
               />
             </div>
           </div>
