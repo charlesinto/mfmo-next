@@ -1,10 +1,16 @@
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/dist/client/router";
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [router.pathname]);
   return (
     <>
       <div className="container">
@@ -108,7 +114,7 @@ export const Nav = () => {
                 <a>Visit Us</a>
               </Link>
             </li>
-            <li className={styles.li}>
+            <li className={styles.li} onClick={() => setIsMenuOpen(false)}>
               <Link href="#">
                 <a>Events</a>
               </Link>
@@ -116,12 +122,12 @@ export const Nav = () => {
             <li className={styles.li}>
               <Link href="/watch-offline">Watch/Live Now</Link>
             </li>
-            <li className={styles.li}>
+            <li className={styles.li} onClick={() => setIsMenuOpen(false)}>
               <Link href="#">
                 <a className={styles.btnOutline}>Get Message</a>
               </Link>
             </li>
-            <li className={styles.li}>
+            <li className={styles.li} onClick={() => setIsMenuOpen(false)}>
               <Link href="#">
                 <a className={styles.btnContain}>Give</a>
               </Link>
