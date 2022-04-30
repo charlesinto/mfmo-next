@@ -21,13 +21,13 @@ export const Footer = () => {
             >
               +2349021415206
             </a>{" "}
-            |
+            |{" "}
             <a
               href="mailto:  contact@maranathafamily.net"
               style={{ color: "#039832", cursor: "pointer" }}
             >
               contact@maranathafamily.net
-            </a>{" "}
+            </a>
           </h4>
         </div>
         <div>
