@@ -27,6 +27,7 @@ const Home: NextPage = () => {
           emulateTouch={true}
           dynamicHeight={true}
           interval={5000}
+          showThumbs={false}
         >
           <div>
             <img src="/church21.webp" />
